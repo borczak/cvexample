@@ -2,10 +2,10 @@
 
 body {
     margin: 0;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
     line-height: 1.2em;
-    
+
 }
 
 article {
@@ -29,9 +29,7 @@ header {
     background-image: url('bg.jpg');
     background-size: cover;
     background-position: fixed;
-  
-    color:white;
-    
+    color: white;
 }
 
 header section {
@@ -40,7 +38,7 @@ header section {
 }
 
 header img {
-/*
+    /*
     width: 150px;
     height: 150px;
 */
@@ -53,17 +51,33 @@ h1 {
     text-transform: uppercase;
 }
 
+h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 main {
     max-width: 1140px;
 }
 
-.course {}
+main section:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
+/*
+.course,
+.skills,
+.school {
+    border-bottom: 2px solid gray;
+}
+*/
 
 .course .title {}
 
 .course .descrition {}
 
-.school span {
+.school span,
+.firm span {
     color: #A7B8BF;
 }
 
